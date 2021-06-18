@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/back_home" 
+        android:title="@string/user_back" >
+    </item>
+    <item android:id="@+id/list_stat" 
+        android:title="@string/list_stat">
+        
+    </item>
+</menu>

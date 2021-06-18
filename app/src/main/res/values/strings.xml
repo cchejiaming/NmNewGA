@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">内蒙古自治区公安厅领导干部及协管干部查询系统</string>
+    <string name="app_desc">内蒙古自治区公安厅政治部</string>
+    <string name="app_ts">涉密设备禁止联网</string>
+    <!--搜索页面-->
+    <string name="exit">退出</string>
+    <string name="search_dialog_hint">请输入查询关键字</string>
+    <string name="search_hint">输入姓名或拼音首字母进行查询</string>
+    <string name="show_sort">排序</string>
+    <string name="add_search">追加查询</string>
+    <string name="search_titile">人员查询</string>
+    <string name="search_mbutton">搜索</string>
+    <string name="search_cancel">清空</string>
+    <string name="search_radio_all">全部</string>
+    <string name="search_radio_man">男性</string>
+    <string name="search_radio_woman">女性</string>
+    <string name="search_text_age_min">最小年龄</string>
+    <string name="search_text_age_max">最大年龄</string>
+    <string name="search_text_age_min_jd">起始年限</string>
+    <string name="search_text_age_max_jd">截止年限</string>
+    <string name="search_radio_nation_all">全部</string>
+    <string name="search_radio_hz">汉族</string>
+    <string name="search_radio_ssmz">少数民族</string>
+    <string name="search_radio_politiall_all">政治面貌</string>
+    <string name="search_radio_zgdy">中共党员</string>
+    <string name="search_radio_fzgdy">非中共党员</string>
+    <string name="search_radio_position_all">全部</string>
+    <string name="search_radio_xcjzz">县处级正职</string>
+    <string name="search_radio_xcjfz">县处级副职</string>
+    <string name="search_check_zzyx">中专及以下学历</string>
+    <string name="search_check_dz">大专学历</string>
+    <string name="search_check_bk">本科学历</string>
+    <string name="search_check_ss">硕士学历</string>
+    <string name="search_check_bs">博士学历</string>
+    <string name="search_text_zzgznf">最早工作年份</string>
+    <string name="search_text_zwgznf">最晚工作年份</string>
+    <string name="search_text_zzrd">最早入党年份</string>
+    <string name="search_text_zwrd">最晚入党年份</string>
+    <string name="search_age_min">20</string>
+    <string name="search_age_max">70</string>
+    <string name="family_age_min">0</string>
+    <string name="family_age_max">100</string>
+    <string name="search_job_start">1940</string>
+    <string name="search_job_end">2050</string>
+    <string name="search_rd_start">1940</string>
+    <string name="search_rd_end">2050</string>
+    <string name="info_title">个人信息</string>
+    <string name="dialog_option_hig">最高</string>
+    <string name="dialog_option_full">全日制</string>
+    <string name="dialog_option_job">在职</string>
+    <!-- Accessibility description sent when user starts drawing a lock pattern. [CHAR LIMIT=NONE] -->
+    <string name="lockscreen_access_pattern_start">Pattern started</string>
+    <!-- Accessibility description sent when the pattern times out and is cleared. [CHAR LIMIT=NONE] -->
+    <string name="lockscreen_access_pattern_cleared">Pattern cleared</string>
+    <!-- Accessibility description sent when user adds a cell to the pattern. [CHAR LIMIT=NONE]  -->
+    <string name="lockscreen_access_pattern_cell_added">Cell added</string>
+    <!-- Accessibility description sent when user completes drawing a pattern. [CHAR LIMIT=NONE] -->
+    <string name="lockscreen_access_pattern_detected">Pattern completed</string>
+    <string name="group_list_hint">手指长按所选择组织（查看详情）</string>
+    <string name="user_favorite">收藏</string>
+    <string name="user_spb">干部任免审批表</string>
+    <string name="user_db">加入对比</string>
+    <string name="user_back">首页</string>
+    <string name="list_stat">统计</string>
+    <string name="history_all">清除记录</string>
+    <string name="fav_edit">人员管理</string>
+    <string name="reg_edit">软件激活</string>
+    <string name="login_title">请先登录</string>
+    <string name="login_tilte_english" translatable="false">Please login first</string>
+    <string name="lock_login_hint">请绘制解锁图案</string>
+    <string name="lock_login_type">使用其他方式登录</string>
+    <string name="more_update">数据更新</string>
+    <string name="more_gesture">手势设置</string>
+    <string name="more_history">历史记录</string>
+    <string name="more_about">关于我们</string>
+    <string name="more_pass">更改密码</string>
+    <string name="more_reg">产品激活</string>
+    <string name="about_title">关于我们</string>
+    <string name="about_content">  长春长信华天科技有限公司是专门从事计算机软件研发、应用、计算机系统集成和信息资料数字化加工的高新技术企业。拥有一支集“智慧、合作、创新、务实”为一体的优秀技术服务团队，竭诚为客户提供“先进、高效、专业、实用”的办公自动化系统服务。我们有着最严格的技术标准，建立一整套完善的软件研发体系、完善的生产管理制度、质量控制制度，并通过国家ISO9001:2000质量管理体系认证。公司遵循“客户第一”的原则，形成一套完整的售前、售中、售后服务体系，为客户提供个性化和完整性的项目实施服务，让用户能真正地从我们的服务过程中收获成功的果实，分享科技的杰作。
+长信华天公司现主研和推广房地产业务管理软件，已开发完成房地产交易登记管理系统、存量房网上备案系统、房产档案综合管理信息系统、档案数字化加工系统、从业主体管理系统、长信华天办公自动化系统等。现有软件产品具有计算机软件著作权和专利权，被省软件评为“双软”认定企业，省档案局认定“涉及载体加工重点企业”。
+价值观：智慧、合作、创新、务实
+宗 旨：以用户为中心，精益求精
+理 念：以技术为核心，以技能为依托，以人力为资本
+文 化：人尽其才，共创辉煌\n
+公司邮箱：1774690@qq.com \n
+公司业务：13504477173\n 
+公司客服：0431-8580-0705\n
+24小时免费传真：0431-85800718 
+
+ </string>
+    <string name="title_activity_group_number">职数配置</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+</resources>

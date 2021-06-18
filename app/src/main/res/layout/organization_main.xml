@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" />
+
+    <LinearLayout
+        android:id="@+id/bottomList"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/bottomItemCurrentBg3"
+            style="@style/main_bottom_item" >
+
+            <RadioButton
+                android:id="@+id/rbUser"
+                style="@style/footbar"
+                android:drawableTop="@drawable/info_xx"
+                android:paddingTop="5dp"
+                android:text="人员列表"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+           <LinearLayout
+            android:id="@+id/bottomItemCurrentBg2"
+            style="@style/main_bottom_item" >
+
+            <RadioButton
+                android:id="@+id/rbBar"
+                style="@style/footbar"
+                android:drawableTop="@drawable/info_xx"
+                android:paddingTop="5dp"
+                android:text="人员对比"
+                android:textColor="@color/black" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/bottomItemCurrentBg1"
+            style="@style/main_bottom_item" >
+
+            <RadioButton
+                android:id="@+id/rbPie"
+                style="@style/footbar"
+                android:drawableTop="@drawable/info_jj"
+                android:paddingTop="5dp"
+                android:text="饼状图"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+     
+
+        <LinearLayout
+            android:id="@+id/bottomItemCurrentBg4"
+            style="@style/main_bottom_item" >
+
+            <RadioButton
+                android:id="@+id/rbList"
+                style="@style/footbar"
+                android:drawableTop="@drawable/info_xx"
+                android:paddingTop="5dp"
+                android:text="文字列表"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TableLayout
+            android:layout_width="800dp"
+            android:layout_height="wrap_content"
+                android:divider="@drawable/driver">
+
+            <TableRow
+                android:id="@+id/tableRow11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:divider="@drawable/driver"
+                android:gravity="center_vertical"
+                android:showDividers="middle" >
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:divider="@drawable/driver"
+                    android:padding="3dip"
+                    android:showDividers="middle|beginning|end" >
+
+                    <TableRow
+                        android:id="@+id/tableRow1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:divider="@drawable/driver"
+                        android:gravity="center_vertical"
+                        android:showDividers="middle|beginning|end" >
+
+                        <TextView
+                            android:layout_width="90dp"
+                            android:layout_height="45dp"
+                            android:gravity="center"
+                            android:text="姓 名" />
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="110dp"
+                            android:layout_height="45dp"
+                            android:gravity="center"
+                            android:text="何家明" />
+
+                        <TextView
+                            android:layout_width="90dp"
+                            android:layout_height="45dp"
+                            android:gravity="center"
+                            android:text="性 别" />
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="110dp"
+                            android:layout_height="45dp"
+                            android:gravity="center"
+                            android:text="男" />
+
+                        <TextView
+                            android:layout_width="90dp"
+                            android:layout_height="45dp"
+                            android:gravity="center"
+                            android:text="出生年月\n( 岁)" />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="110dp"
+                            android:layout_height="45dp"
+                            android:gravity="center"
+                            android:text="1978.04\n(38岁)" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:divider="@drawable/driver"
+                        android:gravity="center_vertical"
+                        android:showDividers="middle|beginning|end" >
+
+                        <TextView
+                            android:layout_width="90dp"
+                            android:layout_height="45dp"
+                            android:gravity="center"
+                            android:text="民 族" />
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="110dp"
+                            android:layout_height="45dp"
+                            android:gravity="center"
+                            android:text="汉族" />
+
+                        <TextView
+                            android:layout_width="90dp"
+                            android:layout_height="45dp"
+                            android:gravity="center"
+                            android:text="籍 贯" />
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="110dp"
+                            android:layout_height="45dp"
+                            android:gravity="center"
+                            android:text="吉林长春市" />
+
+                        <TextView
+                            android:layout_width="90dp"
+                            android:layout_height="45dp"
+                            android:gravity="center"
+                            android:text="出 生 地" />
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="110dp"
+                            android:layout_height="45dp"
+                            android:gravity="center"
+                            android:text="吉林长春市" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:divider="@drawable/driver"
+                        android:gravity="center_vertical"
+                        android:showDividers="middle|beginning|end" >
+
+                        <TextView
+                            android:layout_width="90dp"
+                            android:layout_height="45dp"
+                            android:gravity="center"
+                            android:text="入 党\n时 间" />
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="110dp"
+                            android:layout_height="45dp"
+                            android:gravity="center"
+                            android:text="2003.05" />
+
+                        <TextView
+                            android:layout_width="90dp"
+                            android:layout_height="45dp"
+                            android:gravity="center"
+                            android:text="参加工\n作时间" />
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="110dp"
+                            android:layout_height="45dp"
+                            android:gravity="center"
+                            android:text="1999.09" />
+
+                        <TextView
+                            android:layout_width="90dp"
+                            android:layout_height="45dp"
+                            android:gravity="center"
+                            android:text="健康状况" />
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="110dp"
+                            android:layout_height="45dp"
+                            android:gravity="center"
+                            android:text="良好" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:divider="@drawable/driver"
+                        android:gravity="center_vertical"
+                        android:showDividers="middle|beginning|end" >
+
+                        <TextView
+                            android:layout_width="90dp"
+                            android:layout_height="45dp"
+                            android:gravity="center"
+                            android:text="专业技\n术职务" />
+
+                        <TextView
+                            android:id="@+id/textView10"
+                            android:layout_width="200dp"
+                            android:layout_height="45dp"
+                            android:layout_span="2"
+                            android:gravity="center"
+                            android:text="高级工程师" />
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="110dp"
+                            android:layout_height="45dp"
+                            android:gravity="center"
+                            android:text="熟悉专业\n有何特长" />
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="45dp"
+                            android:layout_span="2"
+                            android:gravity="center"
+                            android:text="程序编码" />
+                    </TableRow>
+                </TableLayout>
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="140dp"
+                    android:layout_height="180dp"
+                    
+                    android:src="@drawable/zzcx" />
+            </TableRow>
+
+            <TableLayout
+                
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:divider="@drawable/driver"
+                 android:showDividers="middle|beginning|end"
+                >
+
+                <TableRow
+                    android:id="@+id/tableRow21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:divider="@drawable/driver"
+                    android:gravity="center_vertical"
+                    android:showDividers="middle|beginning|end" >
+
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="45dp"
+                        android:gravity="center"
+                        android:text="学 历" />
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="110dp"
+                        android:layout_height="45dp"
+                        android:gravity="center"
+                        android:text="全日制\n教 育" />
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="45dp"
+                        android:gravity="center"
+                        android:text="大学" />
+
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="45dp"
+                        android:gravity="center"
+                        android:text="毕业院校\n系及专业" />
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="250dp"
+                        android:layout_height="45dp"
+                        android:layout_span="2"
+                        android:gravity="center"
+                        android:text="吉林大学邮电学院\n通信自动化专业" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:divider="@drawable/driver"
+                    android:gravity="center_vertical"
+                    android:showDividers="middle|beginning|end" >
+
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="45dp"
+                        android:gravity="center"
+                        android:text="学 位" />
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="110dp"
+                        android:layout_height="45dp"
+                        
+                        android:gravity="center"
+                        android:text="在 职\n教 育" />
+
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="45dp"
+                        android:gravity="center"
+                        android:text="研究生" />
+
+                    <TextView
+                        android:id="@+id/textView26"
+                        android:layout_width="90dp"
+                        android:layout_height="45dp"
+                        android:gravity="center"
+                        android:text="毕业院校\n系及专业" />
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="45dp"
+                        android:gravity="center"
+                        android:text="吉林大学\n经济学" />
+                </TableRow>
+            </TableLayout>
+        </TableLayout>
+    </ScrollView>
+
+</HorizontalScrollView>

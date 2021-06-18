@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/black" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:divider="@drawable/driver"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:showDividers="middle" >
+
+        <TextView
+            android:id="@+id/birthTv"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="出生年月"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nationTv"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="民族"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nativeTv"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="籍贯"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/polTv"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="政治面貌"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/jobTimeTv"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="参加工作时间"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/eduTv"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="全日制学历"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/fdegTv"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="全日制学位"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/schoolTv"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="全日制毕业院校"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/speTv"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="全日制专业"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/zeduTv"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="在职学历 "
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/jdegTv"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="在职学位"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/zschoolTv"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="在职毕业院校"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/zspeTv"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="在职专业"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/preDepthTv"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="现职级"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/preJobTimeTv"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="现任职时间"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/lxJobTimeTv"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="连续任该职时间"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/depthTimeTv"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="职级起算时间"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/lxDepthTimeTv"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="任相当层次职务职级起算时间"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/queTv"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="职称"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/marshTv"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="执法资格"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/jcTv"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="基层工作经验"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/black" />
+
+</LinearLayout>

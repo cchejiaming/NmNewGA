@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2dp"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/layoutALL"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:divider="@drawable/driver"
+        android:paddingRight="10dp"
+        android:showDividers="middle" >
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:gravity="end" >
+
+            <View
+                android:id="@+id/leftSpx"
+                android:layout_width="20dp"
+                android:layout_height="2dip"
+                android:layout_gravity="bottom"
+                android:background="@color/gainsboro"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/boderLayout"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_boder_gr"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/textIndex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:gravity="center_vertical"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="13dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.gongan.horizontal.scrollview.InterceptScrollContainer
+            android:id="@+id/scroollContainter"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <com.gongan.horizontal.scrollview.MyHScrollView
+                android:id="@+id/MyHScrollView_item"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <LinearLayout
+                        android:id="@+id/layoutTextItems"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+                    </LinearLayout>
+                </LinearLayout>
+            </com.gongan.horizontal.scrollview.MyHScrollView>
+        </com.gongan.horizontal.scrollview.InterceptScrollContainer>
+    </LinearLayout>
+
+</LinearLayout>

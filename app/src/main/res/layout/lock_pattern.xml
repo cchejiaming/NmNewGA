@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+      android:background="#334455"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/hintTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/red"
+        android:text="请设置新解锁图案" />
+
+    <com.wgs.jiesuo.LockPatternView
+         xmlns:app="http://schemas.android.com/apk/res/com.wgs.jiesuo"
+         android:id="@+id/lpv_lock"
+         android:background="#334455"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent" />
+    
+  
+    
+</LinearLayout>

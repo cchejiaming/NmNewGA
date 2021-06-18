@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:background="#f0f0f0"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/reg_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/pass_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+           android:layout_marginTop="15dp"
+        android:textSize="20dip"
+        android:text="请输入软件激活码" />
+
+      <EditText
+            android:id="@+id/old_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/qq_edit_login"
+            android:ems="20"
+            android:hint="请输入您的激活码"
+            android:password="true"
+            android:singleLine="true" >
+
+            <requestFocus />
+        </EditText>
+
+          <Button
+              android:id="@+id/ok_button"
+              android:layout_marginTop="15dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="确认激活" />
+
+</LinearLayout>

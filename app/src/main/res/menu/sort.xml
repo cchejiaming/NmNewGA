@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- Settings, should always be in the overflow -->
+    <item
+        android:id="@+id/addedSearch"
+        android:title="@string/add_search">
+    </item>
+    <item
+        android:id="@+id/sortRecord"
+        android:title="@string/show_sort">
+    </item>
+
+</menu>

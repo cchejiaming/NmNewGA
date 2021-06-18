@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutProgramManagerMainView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/rootLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/surfaceManagerListHead"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#F5FFFA"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="@drawable/driver"
+                    android:paddingRight="10dp"
+                    android:showDividers="middle" >
+
+                    <TextView
+                        android:id="@+id/textIndex"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#218868"
+                        android:textSize="13dp" />
+
+                    <com.gongan.horizontal.scrollview.InterceptScrollContainer
+                        android:id="@+id/scroollContainter"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:focusable="false" >
+
+                        <com.gongan.horizontal.scrollview.MyHScrollView
+                            android:id="@+id/MyHScrollView_head"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:focusable="false"
+                            android:scrollbars="none" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" >
+
+                                <LinearLayout
+                                    android:id="@+id/layoutTextHeadItems"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:focusable="false"
+                                    android:gravity="center_vertical"
+                                    android:orientation="horizontal" >
+
+                                </LinearLayout>
+                            </LinearLayout>
+                        </com.gongan.horizontal.scrollview.MyHScrollView>
+                    </com.gongan.horizontal.scrollview.InterceptScrollContainer>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical" >
+
+                            <ListView
+                                android:id="@+id/listViewCommonFeatureItems"
+                                android:layout_width="match_parent"
+
+                                android:layout_height="wrap_content" >
+                            </ListView>
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/loadingText"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="正在玩命加载中..." />
+
+    </FrameLayout>
+
+</LinearLayout>

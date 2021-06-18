@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/section_title_layout"
+        android:layout_below="@id/option_lay"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginRight="5.0dip"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/background_corners"
+        android:gravity="center"
+        android:layout_height="40dip" >
+    <EditText
+        android:id="@+id/content_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/qq_edit_login"
+        android:ems="20"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:hint="@string/search_dialog_hint"
+        android:singleLine="true" >
+
+        <requestFocus />
+    </EditText>
+    </LinearLayout>
+</LinearLayout>

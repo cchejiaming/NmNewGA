@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/cxht/app/GroupMainActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/cxht/fragment/GroupJob.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/cxht/fragment/GroupTree.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/cxht/image/DragImageView.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/cxht/image/ImageViewPager.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/cxht/tree/TreeHelper.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/cxht/unit/Utils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/gov/tree/TreeHelper.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/gwy/tree/Node.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/gwy/tree/Tree.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/color/selector_tag_color.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/logout.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/bg_rect_round_tag_btn.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/bg_rect_round_tag_btn.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_group_main.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/adapter_item_tag.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/menu/exit.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/xml" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:overScrollMode="never">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="排序条件： *单击选择条件"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+            <com.cxht.view.KingoitFlowLayout
+                android:id="@+id/kingoit_flow_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                app:flowLayoutBackgroundColor="@color/dodgerblue"
+                app:flowLayoutBackgroundColorSelector="@drawable/selector_flowlayout_item_bg"
+                app:flowLayoutLineColor="@color/aquamarine"
+                app:flowLayoutLineWidth="1dp"
+                app:flowLayoutRadius="50dp"
+                app:flowLayoutTextColor="@color/lightskyblue"
+                app:flowLayoutTextColorSelector="@drawable/selector_flowlayout_item_text_color"
+                app:flowLayoutTextSize="16sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/descTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp" />
+        <RadioGroup
+            android:id="@+id/op_radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="end"
+            android:orientation="horizontal" >
+            <RadioButton
+                android:id="@+id/asc_radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="正序" />
+            <RadioButton
+                android:id="@+id/desc_radioButton"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="倒序" />
+            <RadioButton
+                android:id="@+id/def_radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:checked="true"
+                android:text="默认" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+</LinearLayout>

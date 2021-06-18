@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/apache-ant-zip.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/apache-ant-zip.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

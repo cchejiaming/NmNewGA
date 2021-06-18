@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/white" />
+
+        <LinearLayout
+            android:id="@+id/bottomList"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/bottomItemCurrentBg1"
+                style="@style/main_bottom_item" >
+
+                <RadioButton
+                    android:id="@+id/rbAbout"
+                    style="@style/footbar"
+                    android:drawableTop="@drawable/info_jj"
+                    android:paddingTop="5dp"
+                    android:text="简介"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bottomItemCurrentBg2"
+                style="@style/main_bottom_item" >
+
+                <RadioButton
+                    android:id="@+id/rbDetail"
+                    style="@style/footbar"
+                    android:drawableTop="@drawable/info_xx"
+                    android:paddingTop="5dp"
+                    android:text="详细"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bottomItemCurrentBg4"
+                style="@style/main_bottom_item" >
+
+                <RadioButton
+                    android:id="@+id/rbResume"
+                    style="@style/footbar"
+                    android:drawableTop="@drawable/info_jl"
+                    android:paddingTop="5dp"
+                    android:text="履历"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bottomItemCurrentBg3"
+                style="@style/main_bottom_item" >
+
+                <RadioButton
+                    android:id="@+id/rbFamily"
+                    style="@style/footbar"
+                    android:drawableTop="@drawable/info_home"
+                    android:paddingTop="5dp"
+                    android:text="家庭"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/bottomItemCurrentBg5"
+                style="@style/main_bottom_item" >
+
+                <RadioButton
+                    android:id="@+id/rbPdf"
+                    style="@style/footbar"
+                    android:drawableTop="@drawable/stat_wzlb"
+                    android:paddingTop="5dp"
+                    android:text="材料"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
